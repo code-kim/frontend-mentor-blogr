@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 16px;
+	color: hsl(207, 13%, 34%);
+	font-family: "Ubuntu", sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.hero {
+	height: 60rem;
+	color: #fff;
+	border-radius: 0 0 0 7.5rem;
+	background-image: linear-gradient(
+			to right,
+			rgba(255, 143, 112, 0.9),
+			rgba(255, 61, 84, 0.9)
+		),
+		url(images/bg-pattern-intro.svg);
+}
+
+.top-nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 6rem 16rem;
+}
+
+.top-nav-list {
+	display: flex;
+	gap: 3rem;
+	align-items: center;
+}
+
+.logo {
+	margin-right: 3rem;
+}
+
+.top-nav-icon {
+	margin-left: 0.4rem;
+}
+
+.btn {
+	display: block;
+	background-color: #fff;
+	color: hsl(356, 100%, 66%);
+
+	border-radius: 100px;
+	font-weight: 600;
+}
+
+.btn--sign {
+	padding: 1.6rem 4.2rem;
+}
+
+.hero-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* gap: 5rem; */
+	margin-top: 8rem;
+}
+
+.hero-heading {
+	font-size: 5.5rem;
+	font-weight: 500;
+}
+
+.hero-text {
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+
+.hero-center-links {
+	display: flex;
+	gap: 2rem;
+}
+
+.btn--start {
+	padding: 1.4rem;
+}
+
+.btn--learn {
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 1.4rem 1.8rem;
+}
